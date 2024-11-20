@@ -13,7 +13,6 @@ find_package(ament_cmake REQUIRED)
 
 install(PROGRAMS 
   scripts/teleop_diff.py
-  scripts/hw_serial.py
   DESTINATION lib/${PROJECT_NAME}
   )
 install(DIRECTORY
